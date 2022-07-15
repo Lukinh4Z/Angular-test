@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
-  selector: 'app-square',
+  selector: 'app-square-even',
   templateUrl: './square.component.html',
-  styleUrls: ['./square.component.scss']
+  styleUrls: ['./square.component.scss'],
 })
 export class SquareComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
