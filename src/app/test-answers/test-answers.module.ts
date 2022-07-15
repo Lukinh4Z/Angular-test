@@ -1,12 +1,11 @@
 import { CommonModule } from '@angular/common'
 import { NgModule } from '@angular/core'
 import { TestAnswersComponent } from './test-answers.component'
+import { SquareComponent } from './square/square.component'
 
 @NgModule({
-  declarations: [TestAnswersComponent],
+  declarations: [TestAnswersComponent, SquareComponent],
   imports: [CommonModule],
   exports: [TestAnswersComponent],
 })
 export class TestAnswersModule {}
-
-//a black square in the middle of the screen, 100px h & w.
