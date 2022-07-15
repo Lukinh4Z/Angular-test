@@ -5,4 +5,6 @@ import { Component } from '@angular/core'
   templateUrl: './test-answers.component.html',
   styleUrls: ['./test-answers.component.scss'],
 })
-export class TestAnswersComponent {}
+export class TestAnswersComponent {
+  columns = ['A', 'B', 'C', 'D', 'F', 'G']
+}
