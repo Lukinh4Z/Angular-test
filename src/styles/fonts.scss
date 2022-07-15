@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Fira Code Regular'), local('FiraCode-Regular'), local('Fira Code'),
+    url('/assets/fonts/fira-code-regular.woff2') format('woff2'),
+    url('/assets/fonts/fira-code-regular.woff') format('woff'),
+    url('/assets/fonts/fira-code-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Fira Code';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Fira Code Medium'), local('FiraCode-Medium'), local('Fira Code'),
+    url('/assets/fonts/fira-code-medium.woff2') format('woff2'),
+    url('/assets/fonts/fira-code-medium.woff') format('woff'),
+    url('/assets/fonts/fira-code-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Bitter Regular'), local('Bitter-Regular'), local('Bitter'),
+    url('/assets/fonts/bitter-regular.woff2') format('woff2'), url('/assets/fonts/bitter-regular.woff') format('woff'),
+    url('/assets/fonts/bitter-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Rubik SemiBold'), local('Rubik-SemiBold'), local('SemiBold'),
+    url('/assets/fonts/rubik-semibold.woff2') format('woff2'), url('/assets/fonts/rubik-semibold.woff') format('woff'),
+    url('/assets/fonts/rubik-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-weight: 500;
+  font-style: normal;
+  src:
+  // local('Gotham Medium'), local('Gotham-Medium'), local('Gotham Pro Medium'), local('GothamPro-Medium'),
+  //   local('Gotham Pro'), url('/assets/fonts/gotham-pro-medium.woff2') format('woff2'),
+  //   url('/assets/fonts/gotham-pro-medium.woff') format('woff'),
+    url('/assets/fonts/gotham-pro-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alice';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Alice Regular'), local('Alice-Regular'), local('Alice'),
+    url('/assets/fonts/alice-regular.woff2') format('woff2'), url('/assets/fonts/alice-regular.woff') format('woff'),
+    url('/assets/fonts/alice-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), local('Playfair Display'),
+    url('/assets/fonts/playfair-display-regular.woff2') format('woff2'),
+    url('/assets/fonts/playfair-display-regular.woff') format('woff'),
+    url('/assets/fonts/playfair-display-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Manrope Light'), local('Manrope-Light'), local('Manrope'),
+    url('/assets/fonts/manrope-light.woff2') format('woff2'), url('/assets/fonts/manrope-light.woff') format('woff'),
+    url('/assets/fonts/manrope-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Manrope Medium'), local('Manrope-Medium'), local('Manrope'),
+    url('/assets/fonts/manrope-medium.woff2') format('woff2'), url('/assets/fonts/manrope-medium.woff') format('woff'),
+    url('/assets/fonts/manrope-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Manrope SemiBold'), local('Manrope-SemiBold'), local('Manrope'),
+    url('/assets/fonts/manrope-semibold.woff2') format('woff2'),
+    url('/assets/fonts/manrope-semibold.woff') format('woff'),
+    url('/assets/fonts/manrope-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Manrope Bold'), local('Manrope-Bold'), local('Manrope'),
+    url('/assets/fonts/manrope-bold.woff2') format('woff2'), url('/assets/fonts/manrope-bold.woff') format('woff'),
+    url('/assets/fonts/manrope-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Public Sans Light'), local('PublicSans-Light'), local('Public Sans'),
+    url('/assets/fonts/public-sans-light.woff2') format('woff2'),
+    url('/assets/fonts/public-sans-light.woff') format('woff'),
+    url('/assets/fonts/public-sans-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Public Sans Medium'), local('PublicSans-Medium'), local('Public Sans'),
+    url('/assets/fonts/public-sans-medium.woff2') format('woff2'),
+    url('/assets/fonts/public-sans-medium.woff') format('woff'),
+    url('/assets/fonts/public-sans-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Public Sans SemiBold'), local('PublicSans-SemiBold'), local('Public Sans'),
+    url('/assets/fonts/public-sans-semibold.woff2') format('woff2'),
+    url('/assets/fonts/public-sans-semibold.woff') format('woff'),
+    url('/assets/fonts/public-sans-semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bitter';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Bitter Regular'), local('Bitter-Regular'), local('Bitter'),
+    url('/assets/fonts/bitter-regular.woff2') format('woff2'), url('/assets/fonts/bitter-regular.woff') format('woff'),
+    url('/assets/fonts/bitter-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Inter Regular'), local('Inter-Regular'), local('Inter'),
+    url('/assets/fonts/inter-regular.woff2') format('woff2'), url('/assets/fonts/inter-regular.woff') format('woff'),
+    url('/assets/fonts/inter-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Inter Bold'), local('Inter-Bold'), local('Inter'), url('/assets/fonts/inter-bold.woff2') format('woff2'),
+    url('/assets/fonts/inter-bold.woff') format('woff'), url('/assets/fonts/inter-bold.ttf') format('truetype');
+}
