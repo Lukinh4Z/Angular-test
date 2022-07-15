@@ -9,3 +9,5 @@ import { SquareComponent } from './square/square.component'
   exports: [TestAnswersComponent],
 })
 export class TestAnswersModule {}
+
+//black and white, starting with white
