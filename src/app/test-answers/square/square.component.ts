@@ -8,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core'
 export class SquareComponent implements OnInit {
   numbers = ['1', '2', '3', '4', '5', '6', '7', '8']
 
-  column: string = ''
+  @Input() column = ''
+
   constructor() {}
 
   ngOnInit(): void {}

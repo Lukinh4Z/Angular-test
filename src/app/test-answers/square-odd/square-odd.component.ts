@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-square-odd',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core'
 })
 export class SquareOddComponent implements OnInit {
   numbers = ['1', '2', '3', '4', '5', '6', '7', '8']
+
+  @Input() column = ''
 
   constructor() {}
 
