@@ -1,18 +1,18 @@
 <div class="container">
   <div *ngFor="let column of columns">
-    <app-square [columnNumber]="column.number" [columnName]="column.name" class="column"></app-square>
+    <app-square
+      [columnNumber]="column.number"
+      [columnName]="column.name"
+      class="column"
+      [rowNumb]="rowNumb"
+    ></app-square>
   </div>
 
   <app-pawn
-    id="{{ position[0].id }}"
-    [position]="position[0]"
-    [ngStyle]="{ transform: 'translate(' + this.position[0].posX + 'px, ' + this.position[0].posY + 'px)' }"
-    (click)="onClick(position[0].id, position)"
-  ></app-pawn>
-  <app-pawn
-    id="{{ position[1].id }}"
-    [position]="position[1]"
-    [ngStyle]="{ transform: 'translate(' + this.position[1].posX + 'px, ' + this.position[1].posY + 'px)' }"
-    (click)="onClick(position[1].id, position)"
+    *ngFor="let position of positions"
+    id="{{ position.id }}"
+    [positions]="position"
+    [rowNumb]="rowNumb"
+    [colNumb]="colNumb"
   ></app-pawn>
 </div>

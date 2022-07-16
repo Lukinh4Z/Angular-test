@@ -6,13 +6,24 @@ import { Component, Input, OnInit } from '@angular/core'
   styleUrls: ['./square.component.scss'],
 })
 export class SquareComponent implements OnInit {
-  numbers = ['1', '2', '3', '4', '5', '6', '7', '8']
-
-  columnClass = ''
   @Input() columnName = ''
   @Input() columnNumber = 0
+  @Input() rowNumb = 0
+  @Input() isMovable = false
 
-  constructor() {}
+  movement = false
+  columnClass = ''
+  numbers = [0]
+
+  constructor() {
+    this.movement = this.isMovable
+  }
+
+  columnCreate(rowNumb: number) {
+    for (let i = 0; i < rowNumb; i++) {
+      this.numbers[i] = i + 1
+    }
+  }
 
   ngOnInit(): void {
     if (this.columnNumber % 2 == 0) {
@@ -20,5 +31,6 @@ export class SquareComponent implements OnInit {
     } else {
       this.columnClass = 'even'
     }
+    this.columnCreate(this.rowNumb)
   }
 }

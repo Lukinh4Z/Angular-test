@@ -1,0 +1,8 @@
+<div
+  *ngFor="let number of numbers"
+  class="{{ columnClass }}"
+  id="{{ columnName }}{{ number }}"
+  [attr.movableDirective]="movement"
+>
+  <p>{{ columnName }}{{ number }}</p>
+</div>
