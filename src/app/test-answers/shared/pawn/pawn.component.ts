@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-pawn',
@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./pawn.component.scss'],
 })
 export class PawnComponent implements OnInit {
-  position = {
-    column: 'A',
-    row: '2',
+  @Input() position = {
+    columnName: '',
+    row: 0,
   }
 
   constructor() {}

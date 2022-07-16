@@ -1,8 +1,18 @@
 <div class="container">
   <div *ngFor="let column of columns">
-    <app-square-even *ngIf="!column.odd" [column]="column.name" class="column"></app-square-even>
-    <app-square-odd *ngIf="column.odd" [column]="column.name" class="column"></app-square-odd>
+    <app-square [columnNumber]="column.number" [columnName]="column.name" class="column"></app-square>
   </div>
 
-  <app-pawn></app-pawn>
+  <app-pawn
+    id="{{ position[0].id }}"
+    [position]="position[0]"
+    [ngStyle]="{ transform: 'translate(' + this.position[0].posX + 'px, ' + this.position[0].posY + 'px)' }"
+    (click)="onClick(position[0].id, position)"
+  ></app-pawn>
+  <app-pawn
+    id="{{ position[1].id }}"
+    [position]="position[1]"
+    [ngStyle]="{ transform: 'translate(' + this.position[1].posX + 'px, ' + this.position[1].posY + 'px)' }"
+    (click)="onClick(position[1].id, position)"
+  ></app-pawn>
 </div>
