@@ -1,6 +1,8 @@
 <div class="container">
   <div *ngFor="let column of columns">
-    <app-square-even *ngIf="!column.odd" [column]="column.name"></app-square-even>
-    <app-square-odd *ngIf="column.odd" [column]="column.name"></app-square-odd>
+    <app-square-even *ngIf="!column.odd" [column]="column.name" class="column"></app-square-even>
+    <app-square-odd *ngIf="column.odd" [column]="column.name" class="column"></app-square-odd>
   </div>
+
+  <app-pawn></app-pawn>
 </div>

@@ -1,5 +1,3 @@
-<div class="component">
-  <div *ngFor="let number of numbers" class="square">
-    <p>{{ column }}{{ number }}</p>
-  </div>
+<div *ngFor="let number of numbers" class="square">
+  <p id="{{ column }}{{ number }}">{{ column }}{{ number }}</p>
 </div>
