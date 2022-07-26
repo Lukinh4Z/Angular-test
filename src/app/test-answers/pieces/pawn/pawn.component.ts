@@ -1,3 +1,4 @@
+import { TestAnswersComponent } from './../../test-answers.component'
 import { Component, Input, OnInit } from '@angular/core'
 
 @Component({
